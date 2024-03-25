@@ -38,7 +38,7 @@
   }
   
   nav ul li {
-    margin-left: 20px;
+    margin-left: 10%;
   }
   
   nav ul li a {
@@ -61,13 +61,13 @@
   }
   
   .hero-content h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
+    font-size: 3.2vw;
+    margin-bottom: 1vw;
   }
   
   .hero-content p {
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 2.5vw;
+    margin-bottom: 1vw;
   }
   
   .btn {
@@ -86,7 +86,7 @@
   
   /* About Section */
   #about {
-    padding: 80px 0;
+    padding: 7vw 0;
   }
   
   .about-content {
