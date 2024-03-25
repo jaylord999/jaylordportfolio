@@ -1,0 +1,164 @@
+/* styles.css */
+
+/* Reset and basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header and Navigation */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ff6347;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e65c4f;
+}
+
+/* About Section */
+#about {
+  padding: 80px 0;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+}
+
+.avatar img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 40px;
+}
+
+.bio p {
+  margin-bottom: 20px;
+}
+
+/* Projects Section */
+#projects {
+  padding: 80px 0;
+  background-color: #f8f8f8;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+}
+
+.project {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.project img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-info {
+  padding: 20px;
+}
+
+.project-info h3 {
+  margin-bottom: 10px;
+}
+
+/* Contact Section */
+#contact {
+  padding: 80px 0;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form textarea {
+  height: 150px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
