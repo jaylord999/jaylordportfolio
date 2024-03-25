@@ -15,7 +15,7 @@
   
   .container {
     max-width: 1200px;
-    margin: 0 auto;
+  
     padding: 0 20px;
   }
   
@@ -23,7 +23,7 @@
   header {
     background-color: #333;
     color: #fff;
-    padding: 20px;
+    
   }
   
   nav {
@@ -67,7 +67,7 @@
   
   .hero-content p {
     font-size: 2.5vw;
-    margin-bottom: 1vw;
+    margin-bottom: 0.2vw;
   }
   
   .btn {
@@ -87,18 +87,20 @@
   /* About Section */
   #about {
     padding: 7vw 0;
+    
   }
   
   .about-content {
     display: flex;
     align-items: center;
+    
   }
   
   .avatar img {
-    width: 200px;
-    height: 200px;
+    width: 170px;
+    height: 170px;
     border-radius: 50%;
-    margin-right: 40px;
+    
   }
   
   .bio p {
@@ -109,6 +111,7 @@
   #projects {
     padding: 80px 0;
     background-color: #f8f8f8;
+    
   }
   
   .project-grid {
@@ -122,6 +125,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
     overflow: hidden;
+    position: center;
   }
   
   .project img {
